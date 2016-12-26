@@ -1,0 +1,29 @@
+body {
+	font-size: 1em;
+	color: #006BC3;
+	font-family: Georgia, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #048DFF;
+}
+header, footer, .jokes {
+	text-align: center;
+}
+header {
+	border-bottom: 1px #006BC3 solid;
+}
+footer {
+	border-top: 1px #006BC3 solid;
+}
+.container {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.joke {
+	font-style: italic;
+	font-size: 1.5em;
+}
